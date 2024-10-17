@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- barra de navegacion  -->
+    
+    <nav class="navbar navbar-expand-lg barra">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/logo/logo.png" class="logo" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Aportes</a>
+            </li>
+            <li class="nav-item"></li>
+              <a class="nav-link" href="#">Actualizaciones</a>
+            </li>
+            <li class="nav-item"></li>
+              <a class="nav-link" href="#">Mangas</a>
+            </li>
+            <li class="nav-item"></li>
+              <a class="nav-link" href="#">Foro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://facebook.com" target="_blank">Nosotros</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- carrucel -->
+
+    <div id="carouselJD" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="row">
+                  <div class="col-12 col-md-4">
+                      <div class="card mb-3">
+                        <a href="#">
+                          <img src="img/carrucel/BERSERK.png" class="card-img-top" alt="BERSERK">
+                          <div class="backgroundBlack"></div>
+                          <div class="card-body">
+                              <h6 class="card-title">Interes Otaku</h6>
+                              <p class="card-text">¿Algún día podrán hacer una adaptación decente de BERSERK?</p>
+                          </div>
+                        </a>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                      <div class="card mb-3">
+                        <a href="#">
+                          <img src="img/carrucel/murder.png" class="card-img-top" alt="murder">
+                          <div class="backgroundBlack"></div>
+                          <div class="card-body">
+                              <h6 class="card-title">Interes Otaku</h6>
+                              <p class="card-text">Aún no se estrena y ya la comunidad la odia.</p>
+                          </div>
+                        </a>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                      <div class="card mb-3">
+                        <a href="#">
+                          <img src="img/carrucel/overlord.png" class="card-img-top" alt="Overlord">
+                          <div class="backgroundBlack"></div>
+                          <div class="card-body">
+                              <h6 class="card-title">Interes Otaku</h6>
+                              <p class="card-text">Overlord tendría una quinta temporada.</p>
+                          </div>
+                        </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="row">
+                  <div class="col-12 col-md-4">
+                    <a href="#">
+                      <div class="card mb-3">
+                          <img src="img/carrucel/Ranma.png" class="card-img-top" alt="Ranma">
+                          <div class="backgroundBlack"></div>
+                          <div class="card-body">
+                              <h5 class="card-title">Interes Otaku</h5>
+                              <p class="card-text">De la mano de Netflix Vuelve un clásico muy amado</p>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <a href="#">
+                      <div class="card mb-3">
+                          <img src="img/carrucel/Uzumaki.png" class="card-img-top" alt="Uzumaki">
+                          <div class="backgroundBlack"></div>
+                          <div class="card-body">
+                              <h5 class="card-title manga">Mangas</h5>
+                              <p class="card-text">Próximo a llegar su anime te recomendamos UZUMAKI.</p>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <a href="#">
+                      <div class="card mb-3">
+                          <img src="img/carrucel/zukuna.png" class="card-img-top" alt="Card image 4">
+                          <div class="backgroundBlack"></div>
+                          <div class="card-body">
+                              <h5 class="card-title foro">Foro Anime</h5>
+                              <p class="card-text">¿Que tan roto debe estar un personaje?</p>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselJD" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselJD" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+  </div>
+
+    <!-- cartas -->
+
+    <div class="container containerCartas">
+    <h2>Noticias Actuales del anime</h2>
+      <div class="row row-cols-1 row-cols-md-2 g-4 cartas">
+        <div class="col">
+          <div class="card">
+              <img src="img/noticias/Yeosin.jpg" class="card-img-top" alt="yeison">
+              <div class="card-body">
+                  <h5 class="card-title">Yeosin Gangnim</h5>
+                  <p class="card-text">(titulada en inglés True Beauty) es una serie surcoreana basada en un webtoon del mismo nombre. La trama sigue a Jugyeong Lim, una joven que se convierte en el centro de atención de su escuela tras aprender a usar maquillaje para ocultar su "apariencia natural", que ha sido motivo de bullying en su pasado.
+                      <a href="#" class="openModal" data-id="modal1">Ver más</a>
+                  </p>
+              </div>
+          </div>
+      </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/noticias/SoloLeveling.png" class="card-img-top" alt="SoloLeveling">
+            <div class="card-body">
+              <h5 class="card-title">Solo Leveling</h5>
+              <p class="card-text">Sung Jin-Woo, un cazador débil conocido como el "más débil del mundo", en un mundo donde los cazadores son personas que luchan contra monstruos en mazmorras. Sin embargo, después de una misión peligrosa en la que casi muere, Jin-Woo recibe un misterioso poder llamado "sistema", que lo convierte en un "jugador".
+                <a href="#" class="openModal" data-id="modal2">Ver más</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/noticias/dandadan.jpg" class="card-img-top" alt="dandadan">
+            <div class="card-body">
+              <h5 class="card-title">DANDADAN</h5>
+              <p class="card-text">Momo Ayase, una chica que cree en los fantasmas pero no en los extraterrestres, y Okarun, un compañero de clase que cree en los extraterrestres pero no en los fantasmas. Cuando ambos deciden probar sus creencias mutuamente, terminan involucrándose en eventos paranormales que incluyen extraterrestres, espíritus y criaturas extrañas.
+                <a href="#" class="openModal" data-id="modal3">Ver más</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/noticias/DG.jpg" class="card-img-top" alt="DarwinGame">
+            <div class="card-body">
+              <h5 class="card-title">¿Que paso con ellos?</h5>
+              <p class="card-text">varios animes han logrado una enorme popularidad, pero por diversas razones nunca han recibido una segunda temporada, dejando a sus fans deseando más. Aquí te comparto algunos ejemplos destacados: No Game No Life, Hataraku Maou-sama!, Deadman Wonderland, Akame ga Kill!, Btooom! y muchisimos más.
+                <a href="#" class="openModal" data-id="modal4">Ver más</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modales -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h5>Información de Yeosin Gangnim</h5>
+          <p>(titulada en inglés True Beauty) es una serie surcoreana basada en un webtoon del mismo nombre. La trama sigue a Jugyeong Lim, una joven que se convierte en el centro de atención de su escuela tras aprender a usar maquillaje para ocultar su "apariencia natural", que ha sido motivo de bullying en su pasado</p>
+      </div>
+  </div>
+
+  <div id="modal2" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h5>Información de Solo Leveling</h5>
+          <p>Sung Jin-Woo, un cazador débil conocido como el "más débil del mundo", en un mundo donde los cazadores son personas que luchan contra monstruos en mazmorras. Sin embargo, después de una misión peligrosa en la que casi muere, Jin-Woo recibe un misterioso poder llamado "sistema", que lo convierte en un "jugador".</p>
+      </div>
+  </div>
+  
+  <!-- Modales -->
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h5>Información de DANDADAN</h5>
+        <p>Momo Ayase, una chica que cree en los fantasmas pero no en los extraterrestres, y Okarun, un compañero de clase que cree en los extraterrestres pero no en los fantasmas. Cuando ambos deciden probar sus creencias mutuamente, terminan involucrándose en eventos paranormales que incluyen extraterrestres, espíritus y criaturas extrañas.</p>
+    </div>
+</div>
+
+<div id="modal4" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h5>Información de ¿Que paso con ellos?</h5>
+        <p>varios animes han logrado una enorme popularidad, pero por diversas razones nunca han recibido una segunda temporada, dejando a sus fans deseando más. Aquí te comparto algunos ejemplos destacados: No Game No Life, Hataraku Maou-sama!, Deadman Wonderland, Akame ga Kill!, Btooom! y muchisimos más.</p>
+    </div>
+</div>
+
+    <!-- Clasicos -->
+
+    <div class="container Clasicos">
+      <h2>Recomendandote clasicos</h2>
+      <div class="card mb-3 d-block w-100"" style="max-width: 100%;">
+        <div class="row g-0">
+          <div class="col-lg-4 containerVideo">
+            <iframe  width="350" height="250" src="https://www.youtube.com/embed/RZ-LxkMkxTY?si=OrG3xuM8A0Qecosj&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="col-lg-8">
+            <div class="card-body">
+              <h5 class="card-title">Zoids</h5>
+              <p class="card-text"> Zoids sigue a Van Flyheight, un joven que encuentra un Zoid salvaje llamado Zeke, un Organoid con habilidades especiales. Juntos, se embarcan en una aventura mientras descubren secretos sobre los Zoids y enfrentan amenazas que podrían destruir el mundo.
+                Con un enfoque en la acción, la ciencia ficción y temas de lealtad y poder</p>
+            </div>
+          </div>
+        </div>
+      </div>   
+
+      <div class="card mb-3 d-block w-100"" style="max-width: 100%;">
+        <div class="row g-0">
+          <div class="col-lg-4 containerVideo">
+            <iframe width="350" height="250" src="https://www.youtube.com/embed/FylvLUSShvk?si=i-y4t5QPdUcIJelz&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="col-lg-8">
+            <div class="card-body">
+              <h5 class="card-title">Samurai X (Rurouni Kenshin)</h5>
+              <p class="card-text">La historia sigue a Kenshin Himura, un antiguo asesino conocido como "Hitokiri Battōsai", que decide dejar su vida de violencia y convertirse en un pacífico vagabundo tras el fin de la era Tokugawa. Kenshin, ahora armado con una espada de filo invertido que no puede matar, viaja por Japón ayudando a los demás y protegiendo a los inocentes, todo mientras busca expiar los pecados de su pasado sangriento.</p>
+            </div>
+          </div>
+        </div>
+      </div>   
+    
+      <div class="card mb-3 d-block w-100"" style="max-width: 100%;">
+        <div class="row g-0">
+          <div class="col-lg-4 containerVideo">
+            <iframe width="350" height="250" src="https://www.youtube.com/embed/idZpgHcYm-s?si=gq7tn2NKKpBMGDXN&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="col-lg-8">
+            <div class="card-body">
+              <h5 class="card-title">Chica Marioneta (Saber Marionette J)</h5>
+              <p class="card-text">La historia se ambienta en un futuro donde solo existen hombres en un planeta llamado Terra II. Para suplir la ausencia de mujeres, se crean "marionetas" (androides femeninas) que sirven a la sociedad. El protagonista, Otaru Mamiya, se encuentra con tres marionetas especiales llamadas Lime, Cherry, y Bloodberry, quienes no solo tienen habilidades avanzadas, sino también emociones humanas.</p>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+      <!-- footer -->
+      <footer>
+        <div class="row">
+          <div class="col-md contenedor1">
+            <img src="img/logo/logo.png" alt="logo">
+            <h3>Biblioteca Anime</h3>
+          </div>
+          <div class="col-md contenedor2">
+            <h3>INFORMACIÓN</h3>
+            <ul>
+              <li>
+                <img src="img/Iconos/mdi--telephone.svg" alt="telefono">
+                <p>Telefono: +57 3205893786</p>
+              </li>
+              <li>
+                <img src="img/Iconos/icon-park-solid--local-two.svg" alt="direccion">
+                <p>Dirección: Calle falsa # 123</p>
+              </li>
+              <li>
+                <img src="img/Iconos/lets-icons--e-mail.svg" alt="E-MAIL">
+                <p>Correo: jesusrvarela06@gmail.com</p>
+              </li>
+            </ul>
+        </div>
+          <div class="col-md contenedor3">
+            <h3>REDES SOCIALES</h3>
+            <div class="containerSocialMedia">
+              <a href="#" target="_blank">
+                <img src="img/Iconos/hugeicons--new-twitter.svg" alt="twitter">
+              </a>
+              <a href="#" target="_blank">
+                <img src="img/Iconos/ic--baseline-tiktok.svg" alt="tiktok">
+              </a>
+              <a href="#" target="_blank">
+                <img src="img/Iconos/mdi--instagram.svg" alt="instagram">
+              </a>
+              <a href="#" target="_blank">
+                <img src="img/Iconos/ri--facebook-fill.svg" alt="facebook">
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="finalFooter">
+        <p>Creado por Jesús David Rodríguez Varela</p>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
